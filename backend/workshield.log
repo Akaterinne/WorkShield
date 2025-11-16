@@ -1,0 +1,14 @@
+2025-11-15 21:44:55,511 [INFO] WorkShield System inicializado.
+2025-11-15 21:45:02,706 [INFO] Usuário criado com sucesso: ane (role=user)
+2025-11-15 21:45:25,198 [INFO] Usuário 'ane' fez login. Token=6c08e6a6a610e87ebe60ee8490e80bfa
+2025-11-15 21:55:03,623 [INFO] WorkShield System inicializado.
+2025-11-15 21:55:13,435 [INFO] Usuário criado com sucesso: ane (role=user)
+2025-11-15 21:55:28,136 [WARNING] Senha incorreta para usuário 'ane'.
+2025-11-15 21:55:47,279 [INFO] Usuário 'ane' fez login. Token=75822ca0bf4e3a634bc40443cc59f118
+2025-11-15 21:56:21,837 [DEBUG] Mensagem recebida de ane. Labels detectadas: ['cpf']
+2025-11-15 21:56:21,837 [WARNING] INCIDENTE GERADO — ID=INC000001, user=***, labels=['cpf'], severity=high
+2025-11-15 21:56:56,911 [DEBUG] Mensagem recebida de ane. Labels detectadas: ['malicious_site:phishing-login.com']
+2025-11-15 21:56:56,911 [WARNING] INCIDENTE GERADO — ID=INC000002, user=***, labels=['malicious_site:phishing-login.com'], severity=medium
+2025-11-15 21:57:15,589 [INFO] 2 incidentes listados por 'ane'.
+2025-11-15 21:57:33,183 [INFO] Token 75822ca0bf4e3a634bc40443cc59f118 desconectado.
+2025-11-15 21:57:38,090 [DEBUG] Token inválido: 75822ca0bf4e3a634bc40443cc59f118

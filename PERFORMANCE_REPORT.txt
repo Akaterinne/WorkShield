@@ -1,0 +1,9 @@
+Resultados do teste de performance (instrumentado)
+
+N=1000: avg_insert_comps=16.74, avg_search_comps=17.53, log2(N)=9.966
+N=10000: avg_insert_comps=23.23, avg_search_comps=24.25, log2(N)=13.288
+N=100000: avg_insert_comps=29.65, avg_search_comps=31.01, log2(N)=16.610
+
+Interpretação: a AVL apresenta crescimento proporcional a O(log N). Os contadores medem comparações incrementadas múltiplas vezes por nó,
+portanto os valores absolutos de comparações estão acima de log2(N) por um fator constante (≈2). Em termos de complexidade, o requisito de O(log N)
+é atendido: tempo e número de comparações crescem lentamente com N.
