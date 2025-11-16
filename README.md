@@ -102,17 +102,13 @@ exit
 6. EXEMPLO DE EXECUÇÃO
 ------------------------------------------------------------
 
-> signup ana 123456
-Usuário criado com sucesso.
+> signup ane 123456
 
-> login ana 123456
-Token gerado: a93f1d0c8b...
+> login ane 123456
 
 > send a93f1d0c8b "meu cpf é 123.456.789-10"
-INCIDENTE GERADO: Tipo = CPF | Severidade = Alta
 
 > list a93f1d0c8b
-INC00001 | CPF detectado | Severidade Alta
 
 ------------------------------------------------------------
 7. DOCUMENTAÇÃO (PYDOC)
@@ -158,9 +154,3 @@ O WorkShield atende 100% desses requisitos:
 - Desempenho garantido em O(log N)
 
 
-------------------------------------------------------------
-10. CONTATO
-------------------------------------------------------------
-
-Autora: Ane Katerinne Ribeiro
-FIAP — 2025
